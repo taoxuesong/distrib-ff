@@ -19,3 +19,6 @@ http://blog.csdn.net/zhujunxxxxx
 MetaObject 是建立在运行时C++编译器基础上的反射库。支持对象参数、信号/槽的静态、动态反射，
 支持参数序列化。实现由宏创建可以运行时动态修改的对象（继承于IMetaObject）
 https://github.com/dtmoodie/MetaObject
+
+3、QT5 插件管理系统
+https://github.com/bidachon/PluginManager
