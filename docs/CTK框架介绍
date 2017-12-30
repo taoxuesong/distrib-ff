@@ -71,3 +71,5 @@ IBM Tivoli管理系统。标准化的管理API使得在现有和未来的系统�
 能没有框架限制它们。对CTK服务没有特殊的接口要求,每一个QObject可以充当一个服务并且每个类都可以充当
 一个接口。
 
+编译 CTK
+https://wenku.baidu.com/view/83ef9e1be97101f69e3143323968011ca300f797.html
