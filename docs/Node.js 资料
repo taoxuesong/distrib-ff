@@ -1,0 +1,29 @@
+
+
+在win10安装Node.js+npm模块管理
+http://www.cnblogs.com/abuliGalen/p/6403824.html
+下载 Node.js https://nodejs.org/en/#download
+
+花费了一整天的时间，终于在晚上10点前弄好了，为了纪念今天，就把结果排序下，第一次写就简单除暴点，
+总结的不好请轻拍 
+
+1、Node.js官方Windows版程序；https://nodejs.org/en/#download
+Node.js在Windows平台上提供了两种安装方式，一是.MSI安装文件，另外还有一个.EXE可执行文件。
+我选择了.EXE文件V7.50 Current版本。 
+
+2、 现在电脑创建D:\nodejs目录，并将Node.exe安装保
+存在这个目录中，前辈说装在C盘会有权限的问题。然后并将"D:\nodejs"加入系统环境变量PATH中，
+便于在任意位置执行node应用。我的电脑→属性→高级系统设置→环境变量→双击系统变量中的"path"→
+变量值修改为“D:\nodejs”
+
+3、 新版的Node.js里面是包含了npm源代码的所以不用再去下载，不过要添加新的系统环境变量，变
+量名：NODE_PATH  变量值：D:\nodejs\node_modules，这也是为了任意位置执行npm。   
+
+4、打开CMD查看是否部署完成：
+
+5、部署完成后，我在F盘建了文件夹放Node.js官网的实例代码测试是否成功官网实例代码：
+https://nodejs.org/en/about/我的文件路径：F:\nodeTest\imooc\server.js
+
+6、复制命令行的端口，粘贴在浏览器就可以打开一个简单的web页面，大功告成我想的是要怎么实现，
+要怎么才能办到，其他的事情我也顾不上感谢：
+@Sean Lv    http://www.cnblogs.com/seanlv/archive/2011/11/22/2258716.html   
