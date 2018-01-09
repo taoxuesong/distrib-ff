@@ -15,3 +15,8 @@ Apache Portable Runtime (APR)。APR 是 Apache 的 web 服务器，subversion �
 只有相对较少的项目使用。另外，这是一个 C 库，你或许不喜欢它的命名风格。但是，它易于移植并且健壮（至少它是
 Apache 和 Subversion 的一部分），并且可以用于实现高性能系统。考虑编写一个包装类，实现自己的跨平台库（只封装需要的部分）。
 这么做有很多好处：
+
+
+------------------
+构建自己的Qt插件系统
+http://blog.csdn.net/liang19890820/article/details/77774175
